@@ -29,6 +29,7 @@ The EMart application follows a microservices architecture, comprising multiple 
 
 * MySQL Database: Employed by Books API for data management.
 
+![app stack](https://github.com/debasishdtt/microservice_project/assets/81139107/7db63b02-6d8d-4abd-861e-e1ecd1d076dd)
 
 <p align="center">Fig. 1: Architectural design of the setup</p>
 
@@ -49,6 +50,8 @@ The deployment of the EMart Microservices Application was successfully completed
 * Utilized Docker containers and Docker Compose for easy management and deployment of microservices, ensuring consistency across different environments.
 * Verified the functionality of the application, including user registration, login, and product browsing, to validate the deployment process.
 
+<img width="953" alt="Screenshot_2" src="https://github.com/debasishdtt/microservice_project/assets/81139107/b2f2e27a-a9d0-42b3-8c94-1cb0dd2413a1">
+
 <p align="center">Fig. 2: Accessing from web</p> 
 
 ## 🔚 Conslusion
@@ -58,13 +61,13 @@ The deployment of the EMart Microservices Application using Docker containers ex
 ## 🌱 Room for Growth
 
 While the deployment of the EMart Microservices Application represents a significant achievement in showcasing the capabilities of microservices architecture, there are several areas for potential growth and enhancement:
-1.	Scaling Infrastructure: As the user base and traffic to the application grow, there will be a need to scale the infrastructure dynamically to handle increased load. Implementing auto-scaling mechanisms and load balancers can ensure that the application remains responsive and available under varying workloads.
-2.	Container Orchestration: While Docker Compose provides a convenient way to manage containers locally, transitioning to a container orchestration platform such as Kubernetes can offer more advanced features for managing, scaling, and monitoring containerized applications in production environments. Kubernetes provides capabilities like service discovery, rolling updates, and automated scaling, which can enhance the resilience and scalability of the application.
-3.	Continuous Integration/Continuous Deployment (CI/CD): Implementing CI/CD pipelines can streamline the deployment process, allowing for automated testing, build, and deployment of microservices. Integrating tools like Jenkins, GitLab CI/CD, or GitHub Actions can enable frequent and reliable releases, reducing manual intervention and improving the agility of the development process.
-4.	Microservices Refactoring: As the application evolves and new features are added, there may be opportunities to refactor existing microservices for better performance, scalability, or maintainability. Decomposing monolithic services further into smaller, more specialized microservices can improve isolation, facilitate independent development, and enhance fault tolerance.
-5.	Service Monitoring and Logging: Implementing robust monitoring and logging solutions is crucial for gaining insights into the performance and health of microservices. Integrating tools like Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), or centralized logging platforms can help track metrics, detect anomalies, and troubleshoot issues efficiently, ensuring the reliability and stability of the application.
-6.	Security Considerations: Enhancing the security posture of the application is paramount to safeguarding sensitive data and preventing unauthorized access. Implementing security best practices such as encryption, authentication, and authorization mechanisms, as well as conducting regular security audits and vulnerability assessments, can mitigate risks and ensure compliance with regulatory requirements.
-7.	Optimization for Cloud-Native Environment: Leveraging cloud-native technologies and services can further optimize the application for cloud environments. Migrating to serverless computing, utilizing managed services like AWS Lambda, Azure Functions, or Google Cloud Functions, and adopting cloud-native databases such as Amazon DynamoDB or Google Cloud Spanner can reduce operational overhead and improve scalability and resilience.
+1.	**Scaling Infrastructure:** As the user base and traffic to the application grow, there will be a need to scale the infrastructure dynamically to handle increased load. Implementing auto-scaling mechanisms and load balancers can ensure that the application remains responsive and available under varying workloads.
+2.	**Container Orchestration:** While Docker Compose provides a convenient way to manage containers locally, transitioning to a container orchestration platform such as Kubernetes can offer more advanced features for managing, scaling, and monitoring containerized applications in production environments. Kubernetes provides capabilities like service discovery, rolling updates, and automated scaling, which can enhance the resilience and scalability of the application.
+3.	**Continuous Integration/Continuous Deployment (CI/CD):** Implementing CI/CD pipelines can streamline the deployment process, allowing for automated testing, build, and deployment of microservices. Integrating tools like Jenkins, GitLab CI/CD, or GitHub Actions can enable frequent and reliable releases, reducing manual intervention and improving the agility of the development process.
+4.	**Microservices Refactoring:** As the application evolves and new features are added, there may be opportunities to refactor existing microservices for better performance, scalability, or maintainability. Decomposing monolithic services further into smaller, more specialized microservices can improve isolation, facilitate independent development, and enhance fault tolerance.
+5.	**Service Monitoring and Logging:** Implementing robust monitoring and logging solutions is crucial for gaining insights into the performance and health of microservices. Integrating tools like Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), or centralized logging platforms can help track metrics, detect anomalies, and troubleshoot issues efficiently, ensuring the reliability and stability of the application.
+6.	**Security Considerations:** Enhancing the security posture of the application is paramount to safeguarding sensitive data and preventing unauthorized access. Implementing security best practices such as encryption, authentication, and authorization mechanisms, as well as conducting regular security audits and vulnerability assessments, can mitigate risks and ensure compliance with regulatory requirements.
+7.	**Optimization for Cloud-Native Environment:** Leveraging cloud-native technologies and services can further optimize the application for cloud environments. Migrating to serverless computing, utilizing managed services like AWS Lambda, Azure Functions, or Google Cloud Functions, and adopting cloud-native databases such as Amazon DynamoDB or Google Cloud Spanner can reduce operational overhead and improve scalability and resilience.
 In conclusion, the EMart Microservices Application has immense potential for growth and enhancement, offering opportunities to further optimize, scale, and secure the application infrastructure while delivering value to users and stakeholders. By embracing emerging technologies and best practices, the application can continue to evolve and adapt to meet the evolving needs of modern e-commerce platforms.
 
 
