@@ -29,7 +29,7 @@ The EMart application follows a microservices architecture, comprising multiple 
 
 * MySQL Database: Employed by Books API for data management.
 
-![app stack](https://github.com/debasishdtt/microservice_project/assets/81139107/7db63b02-6d8d-4abd-861e-e1ecd1d076dd)
+![app stack](https://github.com/debasishdtt/microservice_project/assets/81139107/7d432a86-a3dc-4468-98d9-0717bc30f237)
 
 <p align="center">Fig. 1: Architectural design of the setup</p>
 
